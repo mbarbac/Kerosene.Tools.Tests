@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Kerosene.Tools.Launcher</name>
+    </assembly>
+    <members>
+        <member name="T:Kerosene.Tools.OnlyThisTestAttribute">
+            <summary>
+            When used with a test method only those marked with this attribute are executed by the
+            launcher.
+            </summary>
+        </member>
+        <member name="T:Kerosene.Tools.TestsLauncher">
+            <summary>
+            Launcher for an arbitrary number of test methods gathered from the current program in
+            execution.
+            </summary>
+        </member>
+        <member name="M:Kerosene.Tools.TestsLauncher.Execute">
+            <summary>
+            Executes all the test methods in the current assembly. If any method is marked with
+            the 'OnlyThisTest' attribute, then only those methods marked with the same attribute
+            are executed.
+            </summary>
+        </member>
+        <member name="M:Kerosene.Tools.TestsLauncher.Execute``1">
+            <summary>
+            Executes the test methods found on the given type. If any method is marked with the
+            'OnlyThisTest' attribute, then only those methods marked with the same attribute are
+            executed.
+            </summary>
+            <typeparam name="T">The test class where to find the test methods to execute.</typeparam>
+        </member>
+        <member name="M:Kerosene.Tools.TestsLauncher.Execute(System.Type)">
+            <summary>
+            Executes the test methods found on the given type. If any method is marked with the
+            'OnlyThisTest' attribute, then only those methods marked with the same attribute are
+            executed.
+            </summary>
+            <param name="type">The test class where to find the test methods to execute.</param>
+        </member>
+        <member name="M:Kerosene.Tools.TestsLauncher.LocateMethods(System.Type)">
+            <summary>
+            Locates the valid test methods on the given type.
+            </summary>
+        </member>
+        <member name="M:Kerosene.Tools.TestsLauncher.Executor(System.Collections.Generic.List{System.Reflection.MethodInfo})">
+            <summary>
+            Executes the list of methods given.
+            </summary>
+        </member>
+    </members>
+</doc>
