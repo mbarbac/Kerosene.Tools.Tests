@@ -1,0 +1,10 @@
+C:\Users\Moises\Source\mbarbac\Kerosene\Master\2_Tests\Kerosene.Tools.Test\bin\Debug\Kerosene.Tools.Test.exe.config
+C:\Users\Moises\Source\mbarbac\Kerosene\Master\2_Tests\Kerosene.Tools.Test\bin\Debug\Kerosene.Tools.Test.exe
+C:\Users\Moises\Source\mbarbac\Kerosene\Master\2_Tests\Kerosene.Tools.Test\bin\Debug\Kerosene.Tools.Test.pdb
+C:\Users\Moises\Source\mbarbac\Kerosene\Master\2_Tests\Kerosene.Tools.Test\bin\Debug\Kerosene.Tools.dll
+C:\Users\Moises\Source\mbarbac\Kerosene\Master\2_Tests\Kerosene.Tools.Test\bin\Debug\Kerosene.Tools.Launcher.dll
+C:\Users\Moises\Source\mbarbac\Kerosene\Master\2_Tests\Kerosene.Tools.Test\bin\Debug\Kerosene.Tools.Launcher.pdb
+C:\Users\Moises\Source\mbarbac\Kerosene\Master\2_Tests\Kerosene.Tools.Test\bin\Debug\Kerosene.Tools.pdb
+C:\Users\Moises\Source\mbarbac\Kerosene\Master\2_Tests\Kerosene.Tools.Test\obj\Debug\Kerosene.Tools.Test.csprojResolveAssemblyReference.cache
+C:\Users\Moises\Source\mbarbac\Kerosene\Master\2_Tests\Kerosene.Tools.Test\obj\Debug\Kerosene.Tools.Test.exe
+C:\Users\Moises\Source\mbarbac\Kerosene\Master\2_Tests\Kerosene.Tools.Test\obj\Debug\Kerosene.Tools.Test.pdb

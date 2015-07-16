@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Kerosene.Tools.Tests")]
+[assembly: AssemblyTitle("Kerosene.Tools.Test")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Moises Barba Cebeira")]
-[assembly: AssemblyProduct("Kerosene.Tools.Tests")]
+[assembly: AssemblyProduct("Kerosene.Tools.Test")]
 [assembly: AssemblyCopyright("Copyright © Moises Barba Cebeira 2008-2015")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("b8927b8d-41d7-4747-980f-41f8b3ee9401")]
+[assembly: Guid("d26cf095-2b71-4791-ba4d-0213644bf5ef")]
 
 // Version information for an assembly consists of the following four values:
 //
@@ -32,5 +32,5 @@ using System.Runtime.InteropServices;
 // You can specify all the values or you can default the Build and Revision Numbers 
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("7.4.0")]
-[assembly: AssemblyFileVersion("7.4.0")]
+[assembly: AssemblyVersion("7.4.1")]
+[assembly: AssemblyFileVersion("7.4.1")]

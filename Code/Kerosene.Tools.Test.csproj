@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{33699FBF-241C-42F2-B413-178F149B0D76}</ProjectGuid>
+    <ProjectGuid>{6F4BB4EA-1B14-4B57-A874-BD084318F75C}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Kerosene.Tools.Tests</RootNamespace>
-    <AssemblyName>Kerosene.Tools.Tests</AssemblyName>
+    <RootNamespace>Kerosene.Tools.Test</RootNamespace>
+    <AssemblyName>Kerosene.Tools.Test</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <SccProjectName>SAK</SccProjectName>
@@ -38,25 +38,30 @@
   <ItemGroup>
     <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization.Formatters.Soap" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Core\Test_EasyVersion.cs" />
     <Compile Include="Core\Test_DeepObject.cs" />
-    <Compile Include="Core\Test_ElementInfo.cs" />
-    <Compile Include="Core\Test_DynamicParser.cs" />
     <Compile Include="Core\Test_DynamicInfo.cs" />
+    <Compile Include="Core\Test_DynamicParser.cs" />
+    <Compile Include="Core\Test_EasyVersion.cs" />
+    <Compile Include="Core\Test_ElementInfo.cs" />
     <Compile Include="Core\Test_IEquivalent.cs" />
-    <Compile Include="Extensions\Test_SerializationEx.cs" />
-    <Compile Include="Extensions\Test_ObjectEx.cs" />
     <Compile Include="Extensions\Test_CharEx.cs" />
+    <Compile Include="Extensions\Test_ObjectEx.cs" />
+    <Compile Include="Extensions\Test_SerializationEx.cs" />
     <Compile Include="Extensions\Test_StringEx.cs" />
     <Compile Include="Extensions\Test_TypeEx.cs" />
-    <Compile Include="Others\Test_ClockTime.cs" />
     <Compile Include="Others\Test_CalendarDate.cs" />
+    <Compile Include="Others\Test_ClockTime.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -65,11 +70,11 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\1_Code\Kerosene.Tools.Launcher\Kerosene.Tools.Launcher.csproj">
-      <Project>{a6e2be5f-a7fb-4182-bd12-0786444b9e71}</Project>
+      <Project>{66dd1822-cce4-4206-b851-1df74d5d1e26}</Project>
       <Name>Kerosene.Tools.Launcher</Name>
     </ProjectReference>
     <ProjectReference Include="..\..\1_Code\Kerosene.Tools\Kerosene.Tools.csproj">
-      <Project>{4cfe9465-0116-4a02-8cff-ca1f83fe200a}</Project>
+      <Project>{787a5c57-9e18-4186-90d6-6c7e66b53a64}</Project>
       <Name>Kerosene.Tools</Name>
     </ProjectReference>
   </ItemGroup>
